@@ -1,6 +1,5 @@
 require("dotenv").config();
 const clientId = process.env.REACT_APP_API_Key;
-// const clientId = "566e472d6c31428cb0b446bbd1500c49";
 
 const redirectUri = "http://localhost:3000";
 let accessToken;
